@@ -4,27 +4,36 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
     <title>Life on Four Wheels</title>
+
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     
-    <header>
-        <h1>Life on Four Wheels</h1>
-
+    <header id="home">
+        <h1>LIFE ON FOUR WHEELS</h1>
         <p>
             Skateboarding isn't just a hobby.
-            It's a lifestyle, a passion,
-            and a way of expressing myself.
+            It's a lifestyle.
         </p>
     </header>
 
-    <hr>
+    <!-- NAVIGATION MENU -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#posts">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-    
-    <section>
+    <!-- ABOUT ME -->
+    <section id="about">
         <h2>About Me</h2>
 
         <p>
@@ -39,9 +48,9 @@
             every moment on four wheels.
 
             Whether I'm practicing tricks,
-            cruising around, or simply
-            spending time on my skateboard,
-            skating always brings me happiness.
+            cruising around, or simply spending
+            time on my skateboard, skating
+            always brings me happiness.
 
             Through this blog, I want to share
             my experiences, my skateboard setup,
@@ -49,168 +58,148 @@
         </p>
     </section>
 
-    <hr>
-
     
-    <main>
+    <main id="posts">
+
         <h2>My Skateboarding Journal</h2>
 
-        
-        <article>
-            <h3>1. Why I Love Skateboarding</h3>
+        <div class="blog-container">
 
             
-            <img src="stairset.jpeg"
-                 alt="My skateboarding experience"
-                 width="400">
+            <article class="blog-card">
 
-            <p>
-                <strong>Date:</strong>
-                October 16, 2026
-            </p>
+                
+                <img src="stairset.jpeg"
+                     alt="My skateboarding experience">
 
-            <p>
-                Skateboarding has always been
-                something that makes me feel
-                free and happy.
+                <div class="card-content">
+                    <h3>Why I Love Skateboarding</h3>
 
-                There's something special
-                about stepping on a skateboard,
-                feeling the wheels roll,
-                and forgetting about everything
-                else for a while.
+                    <p class="date">
+                        October 16, 2026
+                    </p>
 
-                What I love most about skating
-                is that there's always something
-                new to learn. Every trick takes
-                patience, practice, and
-                determination.
+                    <p>
+                        Skateboarding has always
+                        been something that makes
+                        me feel free and happy.
 
-                Even when I fall or fail a trick,
-                I always find a reason to get
-                back up and try again.
-            </p>
-        </article>
+                        There's something special
+                        about stepping on a board,
+                        feeling the wheels roll,
+                        and forgetting about
+                        everything else.
 
-        <hr>
+                        Even when I fall or fail
+                        a trick, I always find a
+                        reason to get back up
+                        and try again.
+                    </p>
+                </div>
 
-        
-        <article>
-            <h3>2. My Skateboard Setup</h3>
+            </article>
 
             
-            <img src="setup.jpeg"
-                 alt="My personal skateboard setup"
-                 width="400">
+            <article class="blog-card">
 
-            <p>
-                <strong>Date:</strong>
-                October 12, 2026
-            </p>
+                
+                <img src="setup.jpeg"
+                     alt="My skateboard setup">
 
-            <p>
-                One of the most exciting parts
-                of skateboarding is building
-                a skateboard that matches
-                your personal preferences.
+                <div class="card-content">
+                    <h3>My Skateboard Setup</h3>
 
-                My current skateboard setup
-                consists of a  Amoire Libre
-                8.5-inch deck, Lurpiv Solids
-                trucks, Spitfire Formula Four
-                wheels, and Bronson bearings.
+                    <p class="date">
+                        October 12, 2026
+                    </p>
 
-                I chose these components because
-                I wanted a skateboard that
-                feels comfortable and enjoyable
-                to ride.
+                    <p>
+                        One of the most exciting
+                        parts of skateboarding
+                        is building a board that
+                        matches your preferences.
 
-                Having my own skateboard setup
-                makes every skating session
-                even more special.
-            </p>
-        </article>
+                        My setup consists of a
+                        CCS Amoire Libre 8.5-inch
+                        deck, Lurpiv Solids trucks,
+                        Spitfire Formula Four
+                        wheels, and Bronson
+                        bearings.
 
-        <hr>
+                        Having my own setup
+                        makes every skating
+                        session even more special.
+                    </p>
+                </div>
 
-        
-        <article>
-            <h3>3. Lessons I've Learned From Skating</h3>
+            </article>
 
             
-            <img src="skate friends.jpeg"
-                 alt="Learning through skateboarding"
-                 width="400">
+            <article class="blog-card">
 
-            <p>
-                <strong>Date:</strong>
-                October 8, 2026
-            </p>
+                
+                <img src="skate friends.jpeg"
+                     alt="Lessons from skating">
 
-            <p>
-                Skateboarding has taught me
-                many valuable lessons that
-                I can apply to my everyday life.
+                <div class="card-content">
+                    <h3>Lessons From Skating</h3>
 
-                One of the biggest lessons
-                I've learned is that progress
-                takes time.
+                    <p class="date">
+                        October 8, 2026
+                    </p>
 
-                You can't expect to land
-                every trick on your first try.
-                Sometimes it takes dozens
-                or even hundreds of attempts.
+                    <p>
+                        Skateboarding has taught
+                        me many valuable lessons
+                        that I apply to my life.
 
-                Skating has also taught me
-                to be patient, stay determined,
-                and never give up easily.
+                        One of the biggest lessons
+                        is that progress takes time.
 
-                Every small improvement
-                reminds me that hard work
-                and consistency can lead
-                to something rewarding.
-            </p>
-        </article>
+                        Sometimes it takes dozens
+                        or hundreds of attempts
+                        before landing a trick.
+
+                        Skating has taught me
+                        patience, determination,
+                        and consistency.
+                    </p>
+                </div>
+
+            </article>
+
+        </div>
     </main>
 
-    <hr>
-
     
-    <section>
+    <section id="contact">
+
         <h2>Contact Me</h2>
 
         <p>
             Love skateboarding too?
-            Feel free to share your
-            experiences or send me a message!
+            Feel free to send me a message!
         </p>
 
         <form action="#" method="get">
 
-            <label for="name">Name:</label><br>
+            <label for="name">Name:</label>
             <input type="text"
                    id="name"
                    name="name"
                    required>
 
-            <br><br>
-
-            <label for="email">Email:</label><br>
+            <label for="email">Email:</label>
             <input type="email"
                    id="email"
                    name="email"
                    required>
 
-            <br><br>
-
-            <label for="message">Message:</label><br>
+            <label for="message">Message:</label>
             <textarea id="message"
                       name="message"
                       rows="5"
-                      cols="40"
                       required></textarea>
-
-            <br><br>
 
             <button type="submit">
                 Send Message
@@ -218,8 +207,6 @@
 
         </form>
     </section>
-
-    <hr>
 
     
     <footer>
